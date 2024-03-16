@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(14, 14, 14,1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    margin: 5px;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    height: 1px;
+    width: 150px;
+    background-color: white;
+    margin-top: 4px;
+}
+.value{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#error{
+    color: red;
+}
+.btn{
+    display: flex;
+    margin-top: 5px;
+}
+.btnn{
+    margin: 2px;
+    padding: 3px;
+    width: 100px;
+}
